@@ -14,4 +14,7 @@ class Mahasiswa{
         }
 };
 
-class Matakuliah
+class Matakuliah{
+    private:
+        string KodeMk;
+}

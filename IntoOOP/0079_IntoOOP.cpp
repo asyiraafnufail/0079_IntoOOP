@@ -21,7 +21,7 @@ class Matakuliah{
         int sks;
     
     public:
-        void input() {
+        void input(){
             cout << "Kode MK : ";
             cin >> KodeMk;
             cout << "Nama MK : ";
@@ -30,6 +30,9 @@ class Matakuliah{
             cin >> sks;
         }
 
-
-
-}
+        void output(){
+            cout << "Kode MK: " << KodeMk << endl;
+            cout << "Nama MK: " << NamaMk << endl;
+            cout << "SKS: " << sks << endl;
+        } 
+};
